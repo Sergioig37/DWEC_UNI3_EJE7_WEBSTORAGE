@@ -22,7 +22,7 @@ function comprobarUsuario() {
     }
     else {
         var numeroVisitas = parseInt(recuperarDatos("visitas"));
-        numeroVisitas += 1
+        numeroVisitas += 1;
         guardarDatos("visitas", numeroVisitas);
     }
 }
