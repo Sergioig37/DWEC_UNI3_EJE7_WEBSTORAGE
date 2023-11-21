@@ -53,13 +53,13 @@ function cerrarSesion() {
 
 function incrementar() {
     var contadorAu = parseInt(localStorage.getItem("contador"));
-    contadorAu = contadorAu + 1;
+    contadorAu += 1;
     guardarDatos("contador", contadorAu);
 }
 
 function decrementar() {
     var contadorAu = parseInt(localStorage.getItem("contador"));
-    contadorAu = contadorAu - 1;
+    contadorAu -= 1;
     guardarDatos("contador", contadorAu);
 }
 
